@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ViewScreen from "./components/viewScreen";
 import reportWebVitals from './reportWebVitals';
+import './config.scss'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ViewScreen />
   </React.StrictMode>,
   document.getElementById('root')
 );
