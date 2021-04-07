@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import getDeviceData from "../../../getData";
+import Device from "./device";
 
 
 export default function Room() {
@@ -7,13 +8,12 @@ export default function Room() {
     return (
         <div>
             {test}
-            <button
-                onClick={() => {
-                    getDeviceData(setTest)
-                }}
-            >
+            <button onClick={() => {getDeviceData(setTest)}}>
                 Test
             </button>
+            <Device>
+                {<div>123</div>}
+            </Device>
         </div>
     );
 }
