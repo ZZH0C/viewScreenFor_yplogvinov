@@ -1,0 +1,16 @@
+{"device":{
+	"deviceId":"AB0FD1DDE5F101",
+	"class":"sensor",
+	"type":"TH1BT",
+	"typeName":"BT Монитор температуры и влажности",
+	"image":"th1bt.webp",
+	"roomId":3,
+	"placeholder":"ванная-1.png",
+	"displayName":"Датчик ванной комнаты",
+	"sensors":[
+		{"Type":"temperature","displayName":"Температура","state":25,"Unit":"С","mainDisplay":"true"},
+		{"Type":"humidity","displayName":"Влажность","state":64,"Unit":"%","mainDisplay":"true"},
+		{"Type":"pressure","displayName":"Давление","state":160,"Unit":"кПа","mainDisplay":"true"}
+			]
+	}
+}

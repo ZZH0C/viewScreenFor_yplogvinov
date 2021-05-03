@@ -1,10 +1,13 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
+
 export default function Device(props) {
+
+console.log(props)
     return (
-        <div>
-            {props.children}
+        <div className={'device_container'}>
+            {props.props.device.deviceId}
         </div>
     );
 }

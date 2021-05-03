@@ -22,14 +22,27 @@ body {
   }
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
 .view-screen_container{
   height: 100%;
   width: 100%;
   //border: 1px solid black;
 }
 
+.room_container{
+  border: 1px black solid;
+  width: 500px;
+  height: 100px;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+.device_container{
+  border: 2px solid red;
+  width: 200px;
+  height: 30px;
+  background: #e0ba89;
 }

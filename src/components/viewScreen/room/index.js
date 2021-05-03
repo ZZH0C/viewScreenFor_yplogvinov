@@ -1,19 +1,20 @@
-import React, {useState} from "react";
-import getDeviceData from "../../../getData";
+import React from "react";
 import Device from "./device";
+import PropTypes from "prop-types";
 
+export default function Room(props) {
 
-export default function Room() {
-    const [test, setTest] = useState()
+    const deviceView = props.props.devices.map((elem) =>
+        <Device key={elem.device.deviceId} props={elem}/>
+    );
+
     return (
-        <div>
-            {test}
-            <button onClick={() => {getDeviceData(setTest)}}>
-                Test
-            </button>
-            <Device>
-                {<div>123</div>}
-            </Device>
+        <div className={'room_container'}>
+            {deviceView}
         </div>
     );
 }
+
+
+
+Room.propTypes = PropTypes.any.isRequired;

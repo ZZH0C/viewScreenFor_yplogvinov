@@ -1,0 +1,22 @@
+{"Residentials":[
+                {"residentialsId":1,"Address":"д. Крутая гора, д.19В","image":"Крутая гора.png","rooms":[
+		                                     {"roomId":1,"name":"Гостинная"},
+		                                     {"roomId":2,"name":"Спальня"},
+		                                     {"roomId":3,"name":"Ванная"},
+		                                     {"roomId":4,"name":"Кабинет"},											 
+		                                     {"roomId":5,"name":"Прихожая"},
+		                                     {"roomId":6,"name":"Бойлерная"}
+											 ]
+				},
+                {"residentialsId":2,"Address":"г. Минск, ул. Быховская, д.14, кв.37","image":"Быховская.png","rooms":[
+		                                     {"roomId":1,"name":"Гостинная"},
+		                                     {"roomId":2,"name":"Спальня"},
+		                                     {"roomId":3,"name":"Спальня c балконом"},
+		                                     {"roomId":4,"name":"Ванная"},
+		                                     {"roomId":5,"name":"Туалет"},											 
+		                                     {"roomId":6,"name":"Прихожая"},
+		                                     {"roomId":7,"name":"Кухня"}
+											 ]
+				}
+				]
+}

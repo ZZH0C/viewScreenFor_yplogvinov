@@ -1,0 +1,18 @@
+{"device":{
+	"deviceId":"AB0F12D1E51102",
+	"class":"switch",
+	"type":"WS1",
+	"typeName":"WIFI Smart Socket",
+	"image":"ws1.webp",
+	"roomId":1,
+	"placeholder":"гостинная-1.png",
+	"displayName":"Розетка в гостинной",
+	"sensors":[
+		{"Type":"consumption","displayName":"Нагрузка","state":325,"Unit":"Вт","mainDisplay":"true"},
+		{"Type":"rate","displayName":"Потребление","state":1064,"Unit":"кВт/ч","mainDisplay":"true"}
+			],
+	"switches":[
+	{"Type":"power","displayName":"Питание","state":"on","mainDisplay":"true"}
+				]
+			}
+}
