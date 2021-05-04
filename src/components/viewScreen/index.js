@@ -33,7 +33,9 @@ export default function ViewScreen() {
 
     console.log(rooms)
     return (
+
         <div className={'view-screen_container'}>
+            <h1>{resident.Residentials[0].Address}</h1>
             {roomView}
         </div>
     );

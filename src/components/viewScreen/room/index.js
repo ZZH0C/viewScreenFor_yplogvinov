@@ -10,11 +10,13 @@ export default function Room(props) {
 
     return (
         <div className={'room_container'}>
-            {deviceView}
+            <span>{props.props.room.name}</span>
+            <div>
+                {deviceView}
+            </div>
         </div>
     );
 }
-
 
 
 Room.propTypes = PropTypes.any.isRequired;
